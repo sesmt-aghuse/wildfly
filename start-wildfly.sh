@@ -31,11 +31,13 @@ set JAVA_OPTS=-Xms5G -Xmx5G -XX:MetaspaceSize=99M -XX:MaxMetaspaceSize=2G
   -Dorg.jboss.boot.log.file="standalone/log/boot.log" \
   -Dsun.rmi.dgc.client.gcInterval=3600000 \
   -Dsun.rmi.dgc.server.gcInterval=3600000 \
-  -Daghu.automatic.timers.enable=true \
   -Dlogging.configuration="standalone/configuration/logging.properties" \
   -Ddbfilter=pg \
   -Ddatasource.driver.classname=org.postgresql.Driver \
   -Ddatasource.dialect.classname=br.gov.mec.aghu.core.persistence.dialect.PostgreSQLExtendedDialect
+
+# Desatviado por enquanto
+#  -Daghu.automatic.timers.enable=true \
 
 
   #-Dlogging.configuration="file:///wildfly/standalone/configuration/logging.properties"
