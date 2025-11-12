@@ -3,3 +3,5 @@ standalone/data/content/*
 standalone/tmp/*
 standalone/deployments/*
 standalone/configuration/standalone_xml_history/*
+standalone/*
+modules/*
